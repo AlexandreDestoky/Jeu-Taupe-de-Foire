@@ -8,6 +8,10 @@
   </head>
 
   <body>
+    <div class="start">
+      <div class="scoreFinal">Taper sur le plus de taupes en 30 secondes</div>
+      <div class="btnStart">START</div>
+    </div>
     <div class="fondbrun">
       <h1>Jeu de Taupe</h1>
       <div class="container">
@@ -52,12 +56,11 @@
         <div class="score">Score : 0</div>
         <div class="timer">Temps : 30s</div>
       </div>
-      <div class="rejouer">REJOUER</div>
     </div>
-    
+    <!-- audio jouer a chaque coup,on le rend invisible -->
     <audio controls id="SonCoup">
----   <source src="coup2.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
+      <source src="coup2.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
     </audio>
 
     <script src="app.js"></script>
