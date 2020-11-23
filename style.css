@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: brown;
+}
+
+.container {
+  display: grid;
+  grid-template: repeat(3,1fr) / repeat(3,1fr);
+  width: 80%;
+  margin:auto;
+  z-index: 0;
+
+}
+
+.taupe {
+  background: url("taupe.png");
+  height: 150px;
+  width: 150px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  position: relative;
+  top: 150px;
+  z-index: -1;
+
+}
+
+.cercle {
+  height:40px;
+  width:150px;
+  background-color: indianred;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.mole {
+  margin: auto;
+}
+
+.fondbrun {
+
+  height:100vh;
+  width:100%;
+  background-color: lightcoral;
+}
