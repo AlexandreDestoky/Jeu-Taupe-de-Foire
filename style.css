@@ -6,15 +6,14 @@ body {
   margin: 0;
   padding: 0;
   background-color: brown;
-  cursor: url("test3.png"),auto;
+  cursor: url("test3.png"), auto;
 }
 
 .container {
   display: grid;
-  grid-template: repeat(2,1fr) / repeat(3,1fr);
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
   width: 80%;
-  margin:auto;
-
+  margin: auto;
 }
 
 .taupe {
@@ -29,17 +28,13 @@ body {
   top: 100px;
   z-index: 1;
   transition: all 300ms ease-in-out;
-
-
 }
 
 .cercle {
-  height:20px;
-  width:150px;
+  height: 20px;
+  width: 150px;
   background-color: rgb(109, 72, 4);
   border-radius: 20px;
-  
-  
 }
 
 .mole {
@@ -47,15 +42,39 @@ body {
 }
 
 .fondbrun {
-  height:100vh;
-  width:100%;
-  background-color:brown;
+  height: 100vh;
+  width: 100%;
+  background-color: brown;
 }
 
 .terrier {
   position: relative;
   z-index: 2;
   /* border:1px solid black; */
-  height:100px;
+  height: 100px;
   background-color: brown;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #8e443d;
+  font-family: cursive;
+  -webkit-text-stroke: 3px blanchedalmond;
+  margin: 0;
+}
+
+.annonce {
+  display: flex;
+  border:5px solid yellow;
+  justify-content: space-evenly;
+  font-size: 35px;
+  color:blanchedalmond;
+  font-family: cursive;
+  font-weight: bold;
+  -webkit-text-stroke: 1px brown;
+}
+
+audio {
+  display: none;
 }
